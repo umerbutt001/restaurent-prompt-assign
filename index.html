@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java</title>
+</head>
+<body>
+      <h1 style="color: blue; text-align: center; font-size: 50px;">Akala Akala order karka khaoga</h1>
+
+
+    <script>
+
+        // let a = 10
+        // document.write('result: <br>')
+        // document.write( 'the value of a is' + a + '<br>.............................<br>')
+
+
+        // let a = 10;
+        // document.write("Result:<br>");
+        // document.write("The value of a is: " + a + "<br>.................................<br><br>");
+
+        // document.write("The value of ++a is: " + (++a) + "<br>");
+        // document.write("Now the value of a is: " + a + "<br><br>");
+
+        // document.write("The value of a++ is: " + (a++) + "<br>");
+        // document.write("Now the value of a is: " + a + "<br><br>");
+
+        // document.write("The value of --a is: " + (--a) + "<br>");
+        // document.write("Now the value of a is: " + a + "<br><br>");
+
+        // document.write("The value of a-- is: " + (a--) + "<br>");
+        // document.write("Now the value of a is: " + a + "<br>");
+
+
+
+
+
+
+
+
+        // let b = 2 , c = 1
+        // // let result = -b -- -c + ++c + c--
+        // let result = -b 
+
+        // result -= --c 
+        
+        // console.log('final value of b:'+ b );
+
+
+
+
+
+
+
+
+        // var b = 2, c = 1; 
+
+
+        // var result = -b;
+
+
+        // result -= --c; 
+
+
+        // result += ++c;
+
+        // result += c--; 
+
+        // console.log("Final value of b: " + b);
+        // console.log("Final value of c: " + c);
+        // console.log("Final value of result: " + result );
+
+
+
+        // if(true){
+        //     console.log('umer');
+               
+        // }
+        // if(false){
+        //     console.log('butt');
+            
+        // }
+
+
+        // var name = prompt ('enter your name')
+        // if(name=== 'umer'){
+        //     alert('ok')
+        // }
+
+        // console.log(1 !== 1);
+        // console.log('Rose' !== 'rose');
+
+
+        
+        // var nmb1 = prompt ('enter your nmb1')
+        // var opt = prompt ('your opt + ,- * /')
+        // var nmb2 = prompt ('enter your nmb2')
+        
+        // if (opt== '+'){
+        //       alert (nmb1+nmb2 )
+        // }
+        // else if (opt == '-'){
+        //     alert (nmb1-nmb2)
+        // }
+        // else {
+        //     alert ('wrong answer')
+        // }
+          
+
+        // let food = prompt ( 'biryani mil rahi hai')
+        // if(food === 'yes'){
+        //     document.write( ' <h1> lay aa phr dasti </h1> ')
+        // } else{
+        //     document.write('<h1> chal phr ghar na ana </h1>' )
+        // }
+
+
+        
+
+        
+let dish = prompt("1.Biryani \n 2.Burger \n 3.Pizza");
+
+
+if (dish=== "1") {
+    
+    let plate = prompt('single or double');
+
+    if ( plate === "single") {
+        
+        let meat = prompt("chicken or beef");
+        
+        if ( meat === "chicken"){
+            alert("You have ordered a single serving of biryani with chicken.");
+
+        } else if (meat === "beef"){
+            alert("You have ordered a single serving of biryani with beef.");
+        } else {
+            alert("We only have chicken or beef available.");
+        }
+
+    } else if ( plate === "double") {
+        
+        let meat = prompt("chicken or beef");
+        
+        if (meat === "chicken") {
+            alert("You have ordered a double serving of biryani with chicken.");
+        } else if (meat === "beef") {
+            alert("You have ordered a double serving of biryani with beef.");
+        } else {
+            alert("We only have chicken or beef available.");
+        }
+
+    } else {
+        alert("We only have single or double available.");
+    }
+
+} 
+
+
+  if (dish=== "2"){
+    let item = prompt ('1.) zinger \n 2.) Egg or kebab.');
+    
+    if (item ==='1'){
+        let items = prompt('1.) extra cheese \n 2.) simple');
+
+        if (items === '1') {
+            alert("Your extra Zinger cheeseburger order has been completed.")
+        }
+        else if (items === '2') {
+            alert('"Your Egg or kebab burger order has been completed."')
+        }
+        else {
+            alert('chesse or simple')
+        }    
+    }else {
+        alert ('only zinger or egg burger')
+    }
+
+  }
+   
+
+  if (dish === '3'){
+    let flavor = prompt ('1.) malai boti \n 2.) BAR B.Q');
+
+    if (flavor === '1'){
+        alert ("Your order has been booked.")
+    }else if (flavor==='2'){
+        alert("Your order has been booked.")
+    }
+    else{
+        alert ('only these two flavors')
+    }
+  }
+
+
+        
+        
+        
+        
+        
+
+    </script>
+</body>
+</html>
