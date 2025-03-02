@@ -159,21 +159,25 @@ if (dish=== "1") {
 
 
   if (dish=== "2"){
-    let item = prompt ('1.) zinger \n 2.) Egg or kebab.');
+    let food = prompt ('1. zinger  2. Egg or kabab.');
     
-    if (item ==='1'){
+    if (food ==='1'){
         let items = prompt('1.) extra cheese \n 2.) simple');
 
         if (items === '1') {
             alert("Your extra Zinger cheeseburger order has been completed.")
+        }else if (items ==='2'){
+            alert("Your simple zinger buger order has been completed.")
         }
-        else if (items === '2') {
-            alert('"Your Egg or kebab burger order has been completed."')
-        }
+        
         else {
             alert('chesse or simple')
         }    
-    }else {
+    }
+    else if (food ==='2'){
+            alert("Your egg or buger order has been completed.")
+         }
+    else {
         alert ('only zinger or egg burger')
     }
 
